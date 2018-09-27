@@ -1,0 +1,117 @@
+.topnavbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: $primary;
+}
+
+.topnavbar-branding {
+  img {
+    float: left;
+    width: 22px;
+    height: 43px;
+    padding: 7px 0 5px 10px;
+  }
+  
+  p {
+    float:  left;
+    color: white;
+    font-size: 1.9em;
+    padding: 15px 20px 0 3px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.topnavbar-main {
+  a {
+    float: left;
+    display: block;
+    color: $navbar-text-color;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+  }
+  
+/* Change the color of links on hover */
+  a:hover:not(.active) {
+    background-color: $navbar-band-hover-color;
+  }
+
+/* Add an active class to highlight the current page */
+  a.active {
+    color: $navbar-text-active-color;    
+    background-color: $navbar-band-active-color;
+  }
+}
+
+.topnavbar-login, .topnavbar-more-button {
+  a {
+    float: right;
+    display: block;
+    color: $navbar-text-color;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+  }
+  
+/* Change the color of links on hover */
+  a:hover:not(.active) {
+    background-color: $navbar-band-hover-color;
+  }
+
+/* Add an active class to highlight the current page */
+  a.active {
+    color: $navbar-text-active-color;    
+    background-color: $navbar-band-active-color;
+  }
+}
+
+// /* Hide the link that should open and close the topnav on small screens */
+// .topnavbar-more-button a {
+//   display: none;
+//   position: absolute;
+//   right: 0;
+//   top: 0;
+// }
+
+// /* When the screen is less than 850 pixels wide, hide Login links and show More link */
+// @media screen and (max-width: 850px) {
+//   .topnavbar-login a {
+//     display: none;
+//   }
+//   .topnavbar-more-button a {
+//     display: block;
+//   }
+// }
+
+// @media screen and (max-width: 850px) {
+//   .showMenu .topnavbar-login a {
+//     display: block;
+//     clear: left;
+//     float: none;
+//     text-align: left;
+//   }
+// }
+
+// /* When the screen is less than 720 pixels wide, hide Login and Main links, and show More link */
+// @media screen and (max-width: 720px) {
+//   .topnavbar-main a, .topnavbar-login a {
+//     display: none;
+//   }
+//   .topnavbar-more-button a {
+//     display: block;
+//   }
+// }
+
+// @media screen and (max-width: 720px) {
+//   .showMenu .topnavbar-main a, .showMenu .topnavbar-login a {
+//     display: block;
+//     clear: both;
+//     float: none;
+//     text-align: left;
+//   } 
+// }

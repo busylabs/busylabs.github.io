@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="14"
+   height="30"
+   viewBox="0 0 3.7041663 7.9375002"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="busylabs-logo.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="22.4"
+     inkscape:cx="5.9543406"
+     inkscape:cy="18.153002"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     units="px" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-289.06248)">
+    <circle
+       id="circle815"
+       r="0.26570523"
+       cy="289.42987"
+       cx="2.0335457"
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0885684" />
+    <circle
+       id="circle817"
+       r="0.26570523"
+       cy="290.22702"
+       cx="2.4763896"
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0885684" />
+    <circle
+       id="circle819"
+       r="0.26570523"
+       cy="290.04987"
+       cx="1.5021341"
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0885684" />
+    <circle
+       id="circle821"
+       r="0.35427359"
+       cy="291.02411"
+       cx="1.6792712"
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0885684" />
+    <path
+       id="path823"
+       d="m 3.5834932,296.21424 -1.0185366,-2.30277 v -1.55881 c 0,-0.31884 0.2568483,-0.4517 0.2657053,-0.46056 0.088568,-0.0442 0.1239954,-0.15056 0.079712,-0.23913 -0.035427,-0.0621 -0.097426,-0.0974 -0.1682802,-0.0974 v 0 H 0.9707253 v 0 c -0.070855,0 -0.1328528,0.0355 -0.16828,0.0974 -0.044284,0.0885 -0.00886,0.19485 0.079711,0.23913 0,0 0.2657052,0.14172 0.2657052,0.46056 v 1.55881 l -1.0185365,2.30277 c -0.070855,0.16828 -0.05314,0.35427 0.044284,0.50485 0.097426,0.15055 0.2657053,0.23912 0.4428422,0.23912 h 2.4799154 c 0.1771366,0 0.3454169,-0.0886 0.442842,-0.23912 0.097426,-0.15058 0.1151392,-0.33657 0.044285,-0.50485 z m -1.3728104,-3.86158 v 0.35427 h -0.708547 v -0.35427 c 0,-0.18599 -0.05314,-0.32771 -0.1151393,-0.44285 h 0.9476821 c -0.070855,0.1152 -0.1239959,0.25686 -0.1239958,0.44285 z"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0885684" />
+  </g>
+</svg>

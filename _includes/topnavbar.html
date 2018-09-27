@@ -1,0 +1,36 @@
+<div class="topnavbar-branding">
+  {% if page.url != "/" %}
+    <a href="/"><img src="/assets/img/busylabs-logo.svg" alt=""><p >Busylabs</p></a>
+  {% else %}
+    <img src="/assets/img/busylabs-logo.svg" alt=""><p >Busylabs</p>
+  {% endif %}  
+</div>
+
+<div class="hideMenu" id="topnavbar-responsive">
+  <div class="topnavbar-main">
+    {% for item in site.data.navigation %}
+    <a href="{{ item.link }}" {% if page.url == item.link %}class="active"{% endif %}>{{ item.name }}</a>
+    {% endfor %}
+  </div>
+
+  <div class="topnavbar-login">
+    <!-- <a href="/#">Log In</a>
+    <a href="/#">Sign Up</a> -->
+  </div>
+</div>
+
+<!-- <div class="topnavbar-more-button">
+    <a href="javascript:void(0);" class="topnavbar-more" onclick="topnavbarMore()">More</a>
+</div> -->
+
+<script>
+  /* Toggle between adding and removing the "hidden" class to topnav when the user clicks More */
+  function topnavbarMore() {
+      var x = document.getElementById("topnavbar-responsive");
+      if (x.className === "hideMenu") {
+          x.className = "showMenu";
+      } else {
+          x.className = "hideMenu";
+      }
+  }
+</script>

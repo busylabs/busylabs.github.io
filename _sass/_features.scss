@@ -1,0 +1,37 @@
+.features {
+  padding-top: 50px;
+  padding-bottom: 70px;
+  width: 80%;
+  margin: auto;
+  background-color: bisque;
+}
+
+.feature {
+  padding: 0px 70px 50px 20px;
+  clear: both;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0px;
+  padding-bottom: 5px;
+  color: $gray-800;
+}
+
+.feature-text {
+  color: $gray-800;
+  padding-left: 100px;
+}
+
+.feature-text p {
+  margin: 0px;
+}
+
+.feature-icon {
+  // display: inline;
+  float: left;
+  height: 90px;
+  width: 90px;
+  padding: 0px 30px 70px 50px;
+}

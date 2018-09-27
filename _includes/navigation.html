@@ -1,0 +1,19 @@
+<ul>
+  <img class="nav-icon" src="/assets/img/busylabs-logo.svg" alt="">
+  <p class="nav-name">Busylabs</p>
+  {% for item in site.data.navigation %}
+    <li><a href="{{ item.link }}" {% if page.url == item.link %}class="active"{% endif %}>{{ item.name }}</a></li>
+  {% endfor %}
+</ul>
+
+<script>
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
