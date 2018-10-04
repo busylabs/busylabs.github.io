@@ -1,6 +1,6 @@
 .footer {
   background-color: $gray-700;
-  height: 100px;
+  padding: 50px 0;
   color: $gray-300;
   clear: both;
 }
@@ -8,7 +8,15 @@
 .footer-copyright {
   font-size: .8em;
   position: relative;
-  top: 50px;
+  margin-top: 10px;
   left: 20px;
   // margin: 0px;
+}
+
+.footer-copyright img {
+  padding-right: 7px;
+}
+
+.footer-copyright a {
+  color: $gray-300;
 }
