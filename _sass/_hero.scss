@@ -1,7 +1,7 @@
 .hero-image {
   color: $white;
   background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(/assets/img/hero-bg.jpg);
-  height: $hero-height;
+  height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -9,8 +9,8 @@
 
 .hero-text {
   // text-align: center;
-  // position: absolute;
-  // top: 50%;
+  position: absolute;
+  top: 25%;
   // left: 50%;
   // transform: translate(0%, -50%);
   color: $white;
