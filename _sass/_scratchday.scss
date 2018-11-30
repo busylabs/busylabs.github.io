@@ -10,9 +10,17 @@
       font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-weight: bold;
       color: rgb(68, 68, 68);
-    }
+    }    
+    
+    li {
+      font-family: Georgia, "Times New Roman", Times, serif;
+      color: rgb(85, 85, 85);
+      font-size: 18px;
+      line-height: 1.5;
+      margin: 0px 0px 0px;
+    }    
 
-    p, ul, li {
+    p, ul {
       font-family: Georgia, "Times New Roman", Times, serif;
       color: rgb(85, 85, 85);
       font-size: 18px;
@@ -46,6 +54,10 @@
       background-color: rgb(68, 157, 68);
       border-color: rgb(57, 132, 57);
     }
+  }
+
+  .scratchday-video {
+    margin-bottom: 20px;
   }
 
   @media screen and (max-width: 720px) {
