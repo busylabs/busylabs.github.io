@@ -3,47 +3,52 @@
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    width: 60%;
-    // display: grid;
-    // grid-template-columns: 2fr 1fr;
-    // grid-template-rows: min-content min-content min-content min-content min-content max-content;
-    // grid-column-gap: 50px;
-    // grid-template-areas: 
-    //   "banner banner"
-    //   "about tickets"
-    //   "about when"
-    //   "about where"
-    //   "about video"
-    //   "about sponsors";
+    width: 75%;
+    display: grid;
+    grid-template-columns: 1fr 303px;
+    grid-template-rows: repeat(6, auto) 1fr;
+    grid-column-gap: 30px;
+    grid-template-areas: 
+      "banner banner"
+      "about tickets"
+      "about when"
+      "about where"
+      "about video"
+      "about flyer"
+      "about sponsors";
 
-    // .scratchday-banner {
-    //   grid-area: banner;
-    // }
+    .scratchday-banner {
+      grid-area: banner;
+    }
 
-    // .scratchday-about {
-    //   grid-area: about;
-    // }
+    .scratchday-about {
+      grid-area: about;
+    }
 
-    // .scratchday-tickets{
-    //   grid-area: tickets;
-    // } 
+    .scratchday-tickets {
+      grid-area: tickets;
+    } 
 
-    // .scratchday-when{
-    //   grid-area: when;
-    // } 
+    .scratchday-when{
+      grid-area: when;
+    } 
 
-    // .scratchday-where{
-    //   grid-area: where;
-    // } 
+    .scratchday-where{
+      grid-area: where;
+    } 
 
-    // .scratchday-video{
-    //   grid-area: video;
-    // } 
+    .scratchday-video{
+      grid-area: video;
+    }
 
-    // .scratchday-sponsors{
-    //   grid-area: sponsors;
-    //   align-self: stretch;
-    // } 
+    .scratchday-flyer {
+      grid-area: flyer;
+    }
+
+    .scratchday-sponsors{
+      grid-area: sponsors;
+      align-self: stretch;
+    } 
 
 
     h4 {
@@ -77,7 +82,7 @@
     margin-left: auto;
   }
 
-  .scratchday-tickets{ 
+  .scratchday-tickets { 
     display: inline;
 
       button{
@@ -86,7 +91,7 @@
       line-height: 1.33333;
       padding: 10px 16px;
       border-radius: 6px;
-      margin: 15px 0;
+      margin-bottom: 20px;
 
       color: rgb(255, 255, 255);
       background-color: rgb(92, 184, 92);
@@ -108,9 +113,9 @@
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 960px) {
   .scratchday {
-    width: 100%;
+    display: block;
   }
 
   .logo {
