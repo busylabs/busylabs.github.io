@@ -58,15 +58,7 @@
       color: rgb(68, 68, 68);
       margin-top: 0px;
       margin-bottom: 10px;
-    }    
-    
-    li {
-      font-family: Georgia, "Times New Roman", Times, serif;
-      color: rgb(85, 85, 85);
-      font-size: 18px;
-      line-height: 1.5;
-      margin: 0px 0px 0px;
-    }    
+    } 
 
     p, ul {
       font-family: Georgia, "Times New Roman", Times, serif;
@@ -133,5 +125,9 @@
   .logo {
     width: 328px;
     height: 82px;
+  }
+
+  h4, p, ul, button {
+    font-size: 24px;
   }
 }
