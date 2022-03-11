@@ -3,18 +3,53 @@
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    width: 60%;
-    // display: grid;
-    // grid-template-columns: 2fr 1fr;
-    // grid-template-rows: auto auto;
-    // grid-gap: 10px;
-    // grid-template-areas: 
-    //   "banner banner"
-    //   "about ticktes"
-    //   "about when"
-    //   "about where"
-    //   "about video"
-    //   "about sponsors"
+    width: 75%;
+    display: grid;
+    grid-template-columns: 1fr 303px;
+    grid-template-rows: repeat(6, auto) 1fr;
+    grid-column-gap: 30px;
+    grid-template-areas: 
+      "banner banner"
+      "about tickets"
+      "about when"
+      "about where"
+      "about video"
+      "about flyer"
+      "about sponsors";
+
+    .scratchday-banner {
+      grid-area: banner;
+    }
+
+    .scratchday-about {
+      grid-area: about;
+    }
+
+    .scratchday-tickets {
+      grid-area: tickets;
+    } 
+
+    .scratchday-when{
+      grid-area: when;
+    } 
+
+    .scratchday-where{
+      grid-area: where;
+    } 
+
+    .scratchday-video{
+      grid-area: video;
+    }
+
+    .scratchday-flyer {
+      grid-area: flyer;
+    }
+
+    .scratchday-sponsors{
+      grid-area: sponsors;
+      align-self: stretch;
+    } 
+
 
     h4 {
       font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -23,15 +58,7 @@
       color: rgb(68, 68, 68);
       margin-top: 0px;
       margin-bottom: 10px;
-    }    
-    
-    li {
-      font-family: Georgia, "Times New Roman", Times, serif;
-      color: rgb(85, 85, 85);
-      font-size: 18px;
-      line-height: 1.5;
-      margin: 0px 0px 0px;
-    }    
+    } 
 
     p, ul {
       font-family: Georgia, "Times New Roman", Times, serif;
@@ -47,7 +74,7 @@
     margin-left: auto;
   }
 
-  .scratchday-tickets{ 
+  .scratchday-tickets { 
     display: inline;
 
       button{
@@ -56,7 +83,7 @@
       line-height: 1.33333;
       padding: 10px 16px;
       border-radius: 6px;
-      margin: 15px 0;
+      margin-bottom: 20px;
 
       color: rgb(255, 255, 255);
       background-color: rgb(92, 184, 92);
@@ -72,15 +99,35 @@
   .scratchday-video {
     margin-bottom: 20px;
   }
+
+  .scratchday-map {
+    margin-bottom: 20px;
+  }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 960px) {
   .scratchday {
-    width: 100%;
+    display: block;
   }
 
   .logo {
     width: 328px;
     height: 82px;
+  }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .scratchday {
+    display: block;
+  }
+
+  .logo {
+    width: 328px;
+    height: 82px;
+  }
+
+  h4, p, ul, button {
+    font-size: 30px;
   }
 }
