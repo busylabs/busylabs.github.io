@@ -3,18 +3,17 @@
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    width: 60%;
-    // display: grid;
-    // grid-template-columns: 2fr 1fr;
-    // grid-template-rows: auto auto;
-    // grid-gap: 10px;
-    // grid-template-areas: 
-    //   "banner banner"
-    //   "about ticktes"
-    //   "about when"
-    //   "about where"
-    //   "about video"
-    //   "about sponsors"
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto auto;
+    grid-gap: 10px;
+    grid-template-areas: 
+      "banner banner"
+      "about ticktes"
+      "about when"
+      "about where"
+      "about video"
+      "about sponsors"
 
     h4 {
       font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -47,7 +46,7 @@
     margin-left: auto;
   }
 
-  .scratchday-tickets{ 
+  .tickets{ 
     display: inline;
 
       button{
@@ -69,18 +68,16 @@
     }
   }
 
-  .scratchday-video {
+  .video {
     margin-bottom: 20px;
   }
-}
 
-@media screen and (max-width: 720px) {
-  .scratchday {
-    width: 100%;
-  }
+  @media screen and (max-width: 720px) {
+    .logo {
+      width: 328px;
+      height: 82px;
+    }
 
-  .logo {
-    width: 328px;
-    height: 82px;
+
   }
 }
